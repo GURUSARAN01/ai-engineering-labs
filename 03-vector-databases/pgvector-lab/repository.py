@@ -106,4 +106,18 @@ def search_documents(
         ]
 
     return rows
-    
+
+
+def create_benchmark_table(connection):
+    connection.execute(
+        """
+        CREATE TABLE IF NOT EXISTS benchmark_documents (
+            id BIGSERIAL PRIMARY KEY,
+            content TEXT UNIQUE NOT NULL,
+            category TEXT NOT NULL,
+            embedding VECTOR(384) NOT NULL
+        )
+        """
+    )
+
+    connection.commit()
