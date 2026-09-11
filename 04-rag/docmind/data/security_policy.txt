@@ -1,0 +1,11 @@
+Two-factor authentication is available for all user accounts.
+
+Users can enable two-factor authentication from the Security section of account settings.
+
+The system supports authenticator applications for generating verification codes.
+
+Recovery codes are generated when two-factor authentication is enabled.
+
+Recovery codes should be stored securely because they can be used when the normal authentication device is unavailable.
+
+Users should never share passwords or authentication codes with another person.

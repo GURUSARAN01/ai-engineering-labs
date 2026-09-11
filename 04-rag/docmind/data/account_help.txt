@@ -1,0 +1,11 @@
+Users who forget their password can reset it from the login page.
+
+A password reset link is sent to the email address associated with the account.
+
+The password reset link expires after 15 minutes.
+
+After five failed login attempts, the account is temporarily locked for 30 minutes.
+
+Customer support cannot view or retrieve a user's existing password.
+
+Users who no longer have access to their registered email address must contact account recovery support.
